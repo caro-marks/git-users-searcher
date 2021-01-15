@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: darkgrey;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+header {
+  background: whitesmoke;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  text-align: center;
+  position: relative;
+  width: auto;
+}
+header img {
+  max-width: 180px;
+}
+
+.logoSearch {
+  display: inline-block;
+}
+
+#logo {
+  font-weight: 200;
+}
+
+p {
+  font-weight: bold;
+}
+
+main {
+  width: min(90vw, 800px);
+  margin: 5rem auto 20rem ;
+}
+
+.search {
+  margin: 2rem auto;
+}
+
+section input {
+  margin: auto;
+  padding: 1rem;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+section button {
+  float: left;
+  width: 10%;
+  padding: 1rem;
+  margin: auto;
+  background: black;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+section button img {
+  max-width: 20px;
+}
+
+section button:hover {
+  transform: scale(0.9)
+}
+
+
+
+footer {
+  text-align: center;
+  background: darkgrey;
+  align-content: space-between;
+  color: whitesmoke;
+}
+
+.contato {
+  font-size: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.contato a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.contato a:hover {
+  color: blue;
+  text-decoration: underline;
+}

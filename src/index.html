@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Git Searcher</title>
+</head>
+
+<body>
+  <script src="./index.js"></script>
+  <header>
+    <img src="imagens/gh.jpg" alt="logo da GitHub">
+
+    <div class="logoSearch">
+      <h1 id="logo">Git Searcher</h1>
+      <p>Buscador de GitUsers.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+      <label for="userLink">
+        <h2>
+          Cole abaixo o link do usuário de GitHub desejado.
+        </h2>
+      </label>
+    </section>
+
+    <section class="search">
+
+      <input id="search-input" type="url" required placeholder="https://github.com/usuarioDesejado" />
+      <button type="button" id="search-button">
+        <img src="imagens/lupa.png" alt="lupa">
+      </button>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contato">
+      <p> Desenvolvido por Marcos Nolasco</p>
+      <a href="https://www.linkedin.com/in/caro-marks/"> Linkedin </a>
+    </div>
+  </footer>
+</body>
+
+</html>
